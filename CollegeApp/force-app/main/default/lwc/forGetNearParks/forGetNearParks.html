@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Nearby Parks" class="slds-card">
+        <div class="slds-grid slds-wrap no-gap">
+            <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2 slds-p-around_medium">
+                <img src={parksUrl} alt="Parks" class="responsive-image">
+            </div>
+            <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2 slds-p-around_medium">
+                <ul class="park-list">
+                    <template for:each={items} for:item="item">
+                        <li key={item} class="park-list-item">{item}</li>
+                    </template>
+                </ul>
+            </div>
+        </div>
+    </lightning-card>
+</template>

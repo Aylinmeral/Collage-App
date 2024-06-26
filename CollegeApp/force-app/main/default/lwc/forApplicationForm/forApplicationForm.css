@@ -1,0 +1,11 @@
+:host .slds-m-around_medium {
+    background-color: rgb(129, 182, 231);
+    padding: 20px; /* İstediğiniz dolguyu ayarlayabilirsiniz */
+    border-radius: 8px; /* İstediğiniz kenar yuvarlaklığını ayarlayabilirsiniz */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* İstediğiniz gölgeyi ayarlayabilirsiniz */
+}
+
+:host .slds-text-align_center {
+    font-size: 1.5rem;
+    margin-bottom: 20px; /* İstediğiniz boşluğu ayarlayabilirsiniz */
+}

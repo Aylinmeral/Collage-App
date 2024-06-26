@@ -1,0 +1,21 @@
+<template>
+    <lightning-card title="Nearby Restaurants" class="slds-card">
+        <div class="slds-grid slds-wrap no-gap">
+            <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2 slds-p-around_medium">
+                <ul class="park-list">
+                    <template for:each={items} for:item="item">
+                        <li key={item} class="park-list-item">{item}</li>
+                    </template>
+                </ul>
+            </div>
+            <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2 slds-p-around_medium">
+                <img src={restaurantsUrl} alt="Restaurant" class="responsive-image">
+            </div>
+        </div>
+    </lightning-card>
+</template>
+
+<!--display:flex:yatay ve dikey hizalama saglar hizalama saglar ve ogelerin ekran boyutuna gore nasil davrancagini belirtir.-->
+<!--overflow:hidden:metnin tasmasini engeller-->
+<!--flex:1 iki ogenin boyutunu esitler ayni anda genisleyip daralmalarini saglar-->
+<!--list-style:none:liste basindaki isareti kaldirir-->

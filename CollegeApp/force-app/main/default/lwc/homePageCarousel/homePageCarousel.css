@@ -1,0 +1,16 @@
+.responsive-carousel-container {
+    width: 100%;
+    max-width: 1200px; /* Maksimum genişliği belirlemek için */
+    margin: 0 auto; /* Ortalamak için */
+}
+
+.responsive-carousel {
+    width: 100%;
+    height: auto;
+}
+
+.lightning-carousel-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Görsellerin orantılı şekilde sığmasını sağlar */
+}
